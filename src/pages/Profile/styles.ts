@@ -14,7 +14,16 @@ export const Title = styled.Text`
   margin: 24px 0;
 `;
 
+export const Header = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
 export const BackButton = styled.TouchableOpacity`
+  margin-top: 40px;
+`;
+
+export const LogOutButton = styled.TouchableOpacity`
   margin-top: 40px;
 `;
 
